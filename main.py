@@ -52,4 +52,5 @@ extracted_data['Address'] = address_value
 
 df = pd.DataFrame([extracted_data])
 json_data = df.to_json(orient='records')
+
 print(json_data)
